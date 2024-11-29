@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* src/app.css */
+
+/* Estilização do container da página */
+.sobre-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Gradiente suave */
+  }
+  
+  /* Estilização do card */
+  .card-container {
+    background-color: white;
+    padding: 32px;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Estilização da imagem */
+  .image-container {
+    margin-bottom: 24px;
+  }
+  
+  .logo-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid #00b2b2; /* Borda teal */
+  }
+  
+  /* Estilização do título */
+  .titulo-sobre {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #00b2b2;
+    margin-bottom: 24px;
+  }
+  
+  /* Descrição sobre a empresa */
+  .descricao {
+    color: #333;
+    font-size: 1rem;
+    margin-bottom: 24px;
+  }
+  
+  /* Estilização das seções de missão e visão */
+  .missao-container,
+  .visao-container {
+    margin-bottom: 24px;
+  }
+  
+  .subtitulo {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #00b2b2;
+    margin-bottom: 8px;
+  }
+  
+  .texto-missao,
+  .texto-visao {
+    color: #666;
+    font-size: 1rem;
+  }
+  
+  /* Estilização do botão de contato */
+  .button-container {
+    margin-top: 24px;
+  }
+  
+  .custom-button {
+    background-color: #00b2b2;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .custom-button:hover {
+    background-color: #008d8d;
+  }
+  

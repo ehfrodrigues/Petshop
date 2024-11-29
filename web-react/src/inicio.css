@@ -1,0 +1,50 @@
+/* Container principal */
+.inicio-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ocupa 100% da altura da tela */
+    padding: 0 20px; /* Adiciona espaçamento nas laterais */
+    box-sizing: border-box; /* Para garantir que o padding não cause problemas de layout */
+  }
+  
+  /* Container para os cartões */
+  .cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espaçamento entre os cartões */
+    width: 100%;
+    max-width: 1200px; /* Largura máxima para a tela grande */
+  }
+  
+  /* Estilo para cada cartão */
+  .card {
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 30%; /* Cada cartão ocupa 30% da largura */
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  /* Efeito ao passar o mouse sobre o cartão */
+  .card:hover {
+    transform: scale(1.05); /* Aumenta ligeiramente o cartão ao passar o mouse */
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Estilo quando o cartão é selecionado */
+  .card.selected {
+    border: 3px solid #007bff;
+    background-color: #f0f8ff;
+  }
+  
+  /* Texto dentro dos cartões */
+  .card h3 {
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: bold;
+  }
+  
